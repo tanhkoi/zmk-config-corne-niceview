@@ -31,7 +31,7 @@
 &kp TAB         &kp Q  &kp W  &kp E         &kp R    &kp T        &kp Y  &kp U  &kp I      &kp O    &kp P     &kp BACKSPACE
 &kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F    &kp G        &kp H  &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LCTRL       &kp Z  &kp X  &kp C         &kp V    &kp B        &kp N  &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp ESCAPE
-                              &kp LEFT_ALT  &kp RET  &kp SPACE    &kp A  &kp B  &kp C
+                              &kp LEFT_WIN  &kp RET  &kp SPACE    &kp A  &kp B  &kp C
             >;
         };
 
@@ -46,10 +46,10 @@
 
         numpad {
             bindings = <
-&kp TAB         &none           &kp UP_ARROW    &none            &none    &none        &kp N7  &kp N8  &kp N9  &kp PLUS   &kp STAR  &kp BACKSPACE
-&kp LEFT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none    &none        &kp N4  &kp N6  &kp N5  &kp MINUS  &kp FSLH  &none
-&kp LCTRL       &none           &none           &none            &none    &none        &kp N1  &kp N2  &kp N3  &kp N0     &kp DOT   &kp ESCAPE
-                                                &kp LEFT_ALT     &kp RET  &kp SPACE    &none   &none   &none
+&kp TAB         &none  &none           &kp UP_ARROW    &none            &none        &kp N7  &kp N8  &kp N9  &kp PLUS   &kp STAR  &kp BACKSPACE
+&kp LEFT_SHIFT  &none  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &none        &kp N4  &kp N6  &kp N5  &kp MINUS  &kp FSLH  &none
+&kp LCTRL       &none  &none           &none           &none            &none        &kp N1  &kp N2  &kp N3  &kp N0     &kp DOT   &kp ESCAPE
+                                       &kp LEFT_ALT    &kp RET          &kp SPACE    &none   &none   &none
             >;
         };
     };
